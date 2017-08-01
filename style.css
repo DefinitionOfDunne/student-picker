@@ -1,25 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
 body {
 	font-size: 100%;
 	box-sizing: border-box;
 	background-color: black;
+	font-family: 'Amatic SC', cursive;
 }
 
 #generate {
-	color: gray;
 	background-image: url("skull.png");
    background-size:     cover;                 
     background-repeat:   no-repeat;
     background-position: center center;  
 	height: 20em;
     width: 20em;
-    margin: 0 auto;
     display: block;
+    text-align: center;
+    margin: 3em auto;
+    border: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	outline: none;
+	border: 3px solid #fff;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 #refresh {
 	text-align: center;
-    margin: 0 auto;
+    margin: 3em auto;
     display: block;
+    border: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	border: 3px solid #fff;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 #student {
