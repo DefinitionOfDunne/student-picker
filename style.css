@@ -1,0 +1,29 @@
+body {
+	font-size: 100%;
+	box-sizing: border-box;
+	background-color: black;
+}
+
+#generate {
+	color: gray;
+	background-image: url("skull.png");
+   background-size:     cover;                 
+    background-repeat:   no-repeat;
+    background-position: center center;  
+	height: 20em;
+    width: 20em;
+    margin: 0 auto;
+    display: block;
+}
+
+#refresh {
+	text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+#student {
+	color: gray;
+    font-size: 4rem;
+    text-align: center;
+}
