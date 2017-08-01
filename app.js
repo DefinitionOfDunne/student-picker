@@ -9,5 +9,5 @@ var studentArray = ["Naomi ", "Dylan ", "Josh ", "Tori ", "Nicole ", "Laura ", "
 function generateStudent() {
     var randomized = studentArray[Math.floor(Math.random() * studentArray.length)];
 
-    $("#student").append(randomized);
+    $("#student").prepend("<p>" + randomized);
 }
